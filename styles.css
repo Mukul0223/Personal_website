@@ -1,0 +1,184 @@
+body.page1 {
+  font-family: cursive;
+  background-image: url(https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e7ab4842c9596d555f88d6e_Gradien.png),
+    linear-gradient(#f8f8f8, #f8f8f8);
+  background-position: 0 0, 0 0;
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, auto;
+  background-attachment: scroll, scroll;
+}
+
+body.page2 {
+  font-family: cursive;
+  /* background-color: #cee1f4; */
+  background-image: url(https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e7ab4842c9596d555f88d6e_Gradien.png),
+    linear-gradient(#f8f8f8, #f8f8f8);
+  background-position: 0 0, 0 0;
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, auto;
+  background-attachment: scroll, scroll;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 2px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  opacity:.6;
+  color: red;
+}
+
+hr {
+  border: 1px solid rgb(248, 130, 4);
+}
+
+.nav-bar {
+  display: flex;
+}
+
+ul {
+  margin-left: 85%;
+}
+
+li {
+  display: inline-flex;
+  padding: 10px;
+}
+
+#introduction {
+  font-family: Superior title, Times New Roman, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+}
+
+#description {
+  margin-bottom: 50px;
+}
+
+.headline{
+  font-size: 50px;
+  color: rgb(11, 11, 11);
+  font-family: Superior title, Times New Roman, sans-serif;
+  margin-bottom: 90px;
+}
+
+.project-container{
+  margin-bottom: 90px;
+}
+
+
+.project-name{
+  text-decoration: underline;
+}
+
+.project-about{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.about{
+padding-right: 20%;
+}
+
+.tic-image{
+  height: 300px;
+  width: 250px;
+  border-radius: 4px;
+  margin-right:50% ;
+}
+
+.weather-image{
+  border-radius: 4px;
+  height: 200px;
+}
+
+
+
+
+
+.bio-header {
+  font-family: Superior title, Times New Roman, sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.bio-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.portrait {
+  width: 200px;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.aboutme {
+  margin-right: 50px;
+}
+
+.image-container {
+  margin-top: 50px;
+}
+
+table {
+  width: 860px;
+  height: 300px;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+
+td {
+  padding: 10px;
+  border: 1px black;
+  text-align: center;
+}
+
+.center-cell {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+}
+
+/* Remove topmost, bottom, leftmost, and rightmost borders */
+tr:first-child td {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td:first-child {
+  border-left: none;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+.footer {
+  margin-top: 100px;
+  text-align: right;
+  padding: 20px;
+}
+
+.links {
+  margin-left: 50px;
+}
